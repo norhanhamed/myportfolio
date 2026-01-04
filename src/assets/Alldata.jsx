@@ -1,13 +1,13 @@
-import profile from '../src/assets/profile.png'
-import work1 from "./assets/work-1.png"
-import work2 from "./assets/work-2.png"
-import work3 from "./assets/work-3.png"
-import work4 from "./assets/work-4.png"
-import work5 from "./assets/work-5.png"
-import work6 from "./assets/work-6.png"
-import work7 from "./assets/work-7.png"
-import work8 from "./assets/work-8.png"
-import work9 from "./assets/work-9.png"
+import profile from './profile.png'
+import work1 from "./work-1.png"
+import work2 from "./work-2.png"
+import work3 from "./work-3.png"
+import work4 from "./work-4.png"
+import work5 from "./work-5.png"
+import work6 from "./work-6.png"
+import work7 from "./work-7.png"
+import work8 from "./work-8.png"
+import work9 from "./work-9.png"
 
 export const assets = {
     work1,

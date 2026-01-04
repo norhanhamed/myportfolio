@@ -1,4 +1,4 @@
-import { assets } from "../Alldata";
+import { assets } from "../assets/Alldata";
 
 export default function Hero() {
 

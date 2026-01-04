@@ -1,39 +1,36 @@
-import Hero from "../src/Components//Hero";
+import Hero from "../src/Components/Hero";
 import Skills from "../src/Components/Skills";
-import Projects from "./Projects/Projects";
-import Contact from "../src/Components/Contact";
+import Projects from "./Components/Projects/Projects";
+import Contact from "./Components/Contact";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from '../src/Components/Layout';
-import ReactProjects from "./Projects/ReactProjects";
-import LandingProjects from "./Projects/LandingProjects";
-import Education from "./Projects/Education";
+import ReactProjects from "./Components/Projects/ReactProjects";
+import LandingProjects from "./Components/Projects/LandingProjects";
+import Education from "./Components/Projects/Education";
 
+const routing = createBrowserRouter([
+  {
+    path: "/", element: <Layout />, children: [
+      { index: true, element: <Hero /> },
+      {
+        path: "projects", element: <Projects />, children: [
+          { index: true, element: <ReactProjects /> },
+          { path: "landingProjects", element: <LandingProjects /> },
+          { path: "education", element: <Education /> },
+        ]
+      },
+      { path: "contact", element: <Contact /> },
+      { path: "skills", element: <Skills /> },
+    ]
+  }
 
-const App = ()=> {
-   const routes = createBrowserRouter([
-    {
-      path: "", element: <Layout />, children: [
-        { index: true, element: <Hero /> },
-        { path: "Projects", element: <Projects /> , children:[
-           {index:true , element: <ReactProjects />}, 
-           {path: "landingProjects", element: <LandingProjects />},  
-           {path: "education", element: <Education />},  
+],
+ {
+    basename: "/myportfolio",
+  }
+)
+const App = () => {
+  return <RouterProvider router={routing} />;
+};
 
- 
-        ]},
-        { path: "contact", element: <Contact /> },
-        { path: "skills", element: <Skills /> },
-      ]
-    }
-   ])
-  
-
-  return (
-   
-<>
-        <RouterProvider router={routes} ></RouterProvider>
-        </>
-
-  )
-}
 export default App

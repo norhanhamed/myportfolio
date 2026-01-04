@@ -1,23 +1,20 @@
 import React from 'react'
-import { landingPageProjects } from '../Alldata'
-import ProjectCard from '../Components/ProjectCard'
+import { educationProjects } from '../../assets/Alldata'
+import ProjectCard from '../ProjectCard'
 
-
-function LandingProjects() {
+function Education() {
     return (
         <>
-
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {landingPageProjects.map((project) => (
+                {educationProjects.map((project) => (
                     <ProjectCard
                         key={project.title}
                         project={project}
                     />
                 ))}
             </div>
-
         </>
     )
 }
 
-export default LandingProjects
+export default Education
