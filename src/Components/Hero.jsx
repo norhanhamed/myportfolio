@@ -25,7 +25,7 @@ export default function Hero() {
                           items-start md:items-center
                           justify-start md:justify-between gap-5 mt-5 mb-5  flex-1">
             <Link to='projects' className="w-full md:w-auto">
-              <button className="w-full md:w-auto px-6 py-3 bg-[#FF9F1C] hover:bg-[#000] hover:text-[#FF9F1C] hover:text-lg transition-all duration-300 ease-in-out text-black rounded-lg font-medium cursor-pointer"  >
+              <button className="w-full md:w-auto px-6 md:px-2 py-3  bg-[#FF9F1C] hover:bg-[#000] hover:text-[#FF9F1C] hover:text-lg transition-all duration-300 ease-in-out text-black rounded-lg font-medium cursor-pointer"  >
                 View Projects
               </button>
             </Link>
