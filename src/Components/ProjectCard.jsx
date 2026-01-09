@@ -3,11 +3,11 @@ import React from 'react'
 const ProjectCard = ({ project }) => {
     return (
         <>
-            <div
-                className="bg-[#111111] rounded-2xl border border-[#FF9F1C]/40 overflow-hidden transition duration-300 hover:shadow-[0_0_30px_rgba(255,159,28,0.25)]">
+        {/* card */}
+            <div className="bg-[#111111] rounded-2xl border border-[#FF9F1C]/40 overflow-hidden transition duration-300 hover:shadow-[0_0_30px_rgba(255,159,28,0.25)]">
                 {/* Image */}
-                <div className="h-52 overflow-hidden">
-                    <img src={project.bgImage} alt={project.title} className="w-full h-full  object-cover" />
+                <div className="h-52  overflow-hidden">
+                    <img src={project.bgImage} alt={project.title} className="w-full h-full object-cover" />
                 </div>
                 {/* Content */}
                 <div className="p-6">
@@ -18,7 +18,7 @@ const ProjectCard = ({ project }) => {
                         <a
                             href={project.demo_link}
                             target="_blank"
-                            className=" px-4 py-2 text-sm rounded-lg bg-[#FF9F1C] text-black font-medium">
+                            className=" px-4 py-2 text-sm rounded-lg bg-primary text-black font-medium">
                             Live Demo
                         </a>
                         <a
@@ -30,7 +30,6 @@ const ProjectCard = ({ project }) => {
                     </div>
                 </div>
             </div>
-
         </>
     )
 }

@@ -8,8 +8,7 @@ import LandingProjects from "./Components/Projects/LandingProjects";
 import Education from "./Components/Projects/Education";
 
 const routing = createHashRouter ([
-  {
-    path: "/", element: <Layout />, children: [
+  { path: "/", element: <Layout />, children: [
       { index: true, element: <Hero /> },
       {
         path: "projects", element: <Projects />, children: [

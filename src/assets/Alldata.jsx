@@ -25,6 +25,13 @@ export const assets = {
 
 
 export const reactProjects = [
+      {
+        title: 'FreshCart project',
+        description: 'React app',
+        bgImage: assets.work1,
+        git_link: 'https://github.com/norhanhamed/FreshCart',
+        demo_link: ' https://norhanhamed.github.io/FreshCart/',
+    },
     {
         title: 'Weather project ',
         description: 'React app',
@@ -32,13 +39,7 @@ export const reactProjects = [
         git_link: "https://github.com/norhanhamed/Weather-App",
         demo_link: " https://norhanhamed.github.io/Weather-App/"
     },
-    {
-        title: 'FreshCart project',
-        description: 'React app',
-        bgImage: assets.work1,
-        git_link: 'https://github.com/norhanhamed/FreshCart',
-        demo_link: ' https://norhanhamed.github.io/FreshCart/',
-    },
+  
     {
         title: 'Movies project',
         description: 'React app',

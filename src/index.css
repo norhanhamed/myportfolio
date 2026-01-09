@@ -1,4 +1,20 @@
+
 @import "tailwindcss";
+
+
+@import "tailwindcss";
+
+:root {
+  --color-primary: #FF9F1C;
+}
+
+@theme {
+  --color-primary: var(--color-primary);
+}
+
+
+
+
 
 
 body {
@@ -25,3 +41,5 @@ body {
 .animate-float {
   animation: float 2.5s ease-in-out infinite;
 }
+
+

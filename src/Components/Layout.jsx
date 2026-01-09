@@ -6,7 +6,7 @@ const Layout = () => {
     return (
         <>
             <div className=' flex flex-col-reverse md:flex-row  md:min-h-screen '>
-                <div className=' md:w-64'>
+                <div className=' lg:w-64'>
                     <Sidebar />
                 </div>
                 <div className="flex-1 p-4 pt-10 md:px-10">
