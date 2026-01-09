@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedinIn, FaWhatsapp, } from "react-icons/fa";
 
 export default function SocialIcons() {
     return (
-        <div className="flex flex-col ml-0 gap-3 float animate-float ">
+        <div className="flex flex-row md:flex-col ml-0 gap-3 float animate-float md:mt-20 mt-0">
             <a className="icon" 
             href="https://github.com/norhanhamed/norhanhamed"
             target="blank"

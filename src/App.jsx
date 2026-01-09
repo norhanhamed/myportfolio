@@ -1,7 +1,6 @@
 import Hero from "../src/Components/Hero";
 import Skills from "../src/Components/Skills";
 import Projects from "./Components/Projects/Projects";
-import Contact from "./Components/Contact";
 import {  createHashRouter, RouterProvider } from "react-router-dom";
 import Layout from '../src/Components/Layout';
 import ReactProjects from "./Components/Projects/ReactProjects";
@@ -19,20 +18,13 @@ const routing = createHashRouter ([
           { path: "education", element: <Education /> },
         ]
       },
-      { path: "contact", element: <Contact /> },
       { path: "skills", element: <Skills /> },
     ]
   }
-
 ],
-  // {
-  //   basename: "/myportfolio",
-  // }
 )
 const App = () => {
   return <RouterProvider router={routing} />;
-
-
 };
 
 export default App
