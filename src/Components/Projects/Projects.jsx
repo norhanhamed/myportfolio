@@ -18,13 +18,13 @@ export default function Projects() {
         </div>
         {/* naving */}
         <ul className='flex gap-4 lg:gap-10 items-center lg:text-xl text-[13px] md:text-[18px] text-gray-100 '>
-          <li className=' hover:scale-105  border border-amber-100 shadow-amber-50 rounded-4xl px-4 py-1 '>
+          <li className='shadow-[0_0_30px_rgba(255,159,28,0.25)] hover:scale-105  border border-amber-100 shadow-amber-50 rounded-4xl px-4 py-1 '>
             < Link to='' > React</Link>
           </li>
-          <li className=' hover:scale-105  border border-amber-100 shadow-amber-50 rounded-4xl px-4 py-1 '>
+          <li className='shadow-[0_0_30px_rgba(255,159,28,0.25)] hover:scale-105  border border-amber-100 shadow-amber-50 rounded-4xl px-4 py-1 '>
             < Link to='landingProjects' > landing page</Link>
           </li>
-          <li className=' hover:scale-105  border border-amber-100 shadow-amber-50 rounded-4xl px-4 py-1 '>
+          <li className='shadow-[0_0_30px_rgba(255,159,28,0.25)] hover:scale-105  border border-amber-100 shadow-amber-50 rounded-4xl px-4 py-1 '>
             < Link to='education' >  Education</Link>
           </li>
         </ul>
