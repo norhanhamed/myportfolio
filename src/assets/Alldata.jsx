@@ -51,6 +51,13 @@ export const reactProjects = [
     },
 ]
 export const landingPageProjects = [
+     {
+        title: ' Coffee-Shop-Website ',
+        description: 'Html,Css,Js app',
+        bgImage: assets.work10,
+        git_link: 'https://github.com/norhanhamed/coffee-shop-website',
+        demo_link: ' https://norhanhamed.github.io/coffee-shop-website/ ',
+    },
     {
         title: 'Furniture project ',
         description: 'Html css app',
@@ -65,13 +72,7 @@ export const landingPageProjects = [
         git_link: 'https://github.com/norhanhamed/real-estate',
         demo_link: 'https://norhanhamed.github.io/real-estate/',
     },
-       {
-        title: ' Coffee-Shop-Website ',
-        description: 'Html,Css,Js app',
-        bgImage: assets.work10,
-        git_link: 'https://github.com/norhanhamed/coffee-shop-website',
-        demo_link: ' https://norhanhamed.github.io/coffee-shop-website/ ',
-    },
+      
 ]
 
 export const educationProjects = [
