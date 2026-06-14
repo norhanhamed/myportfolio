@@ -8,6 +8,7 @@ import work6 from "./work-6.png"
 import work7 from "./work-7.png"
 import work8 from "./work-8.png"
 import work9 from "./work-9.png"
+import work10 from "./work10.png"
 
 export const assets = {
     work1,
@@ -19,7 +20,8 @@ export const assets = {
     work7,
     work8,
     work9,
-    profile
+    work10,
+    profile,
 }
 
 
@@ -62,6 +64,13 @@ export const landingPageProjects = [
         bgImage: assets.work6,
         git_link: 'https://github.com/norhanhamed/real-estate',
         demo_link: 'https://norhanhamed.github.io/real-estate/',
+    },
+       {
+        title: ' Coffee-Shop-Website ',
+        description: 'Html,Css,Js app',
+        bgImage: assets.work10,
+        git_link: 'https://github.com/norhanhamed/coffee-shop-website',
+        demo_link: ' https://norhanhamed.github.io/coffee-shop-website/ ',
     },
 ]
 
