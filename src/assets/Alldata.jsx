@@ -56,7 +56,7 @@ export const landingPageProjects = [
      {
         title: ' Hat-Rick sport site ',
         description: 'Html,Css,Js app',
-        bgImage: assets.work10,
+        bgImage: assets.hatrick,
         git_link: 'https://github.com/norhanhamed/myportfolio',
         demo_link: ' https://norhanhamed.github.io/myportfolio/ ',
     },

@@ -22,7 +22,7 @@ export default function Projects() {
             < Link to='' > React</Link>
           </li>
           <li className='shadow-[0_0_30px_rgba(255,159,28,0.25)] hover:scale-105  border border-amber-100 shadow-amber-50 rounded-4xl px-4 py-1 '>
-            < Link to='landingProjects' > landing page</Link>
+            < Link to='landingProjects' > HTML,CSS,JS</Link>
           </li>
           <li className='shadow-[0_0_30px_rgba(255,159,28,0.25)] hover:scale-105  border border-amber-100 shadow-amber-50 rounded-4xl px-4 py-1 '>
             < Link to='education' >  Education</Link>
