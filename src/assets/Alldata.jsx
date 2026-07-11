@@ -9,6 +9,7 @@ import work7 from "./work-7.png"
 import work8 from "./work-8.png"
 import work9 from "./work-9.png"
 import work10 from "./work10.png"
+import hatrick from "./hatrick.jpeg"
 
 export const assets = {
     work1,
@@ -22,6 +23,7 @@ export const assets = {
     work9,
     work10,
     profile,
+    hatrick,
 }
 
 
@@ -51,6 +53,13 @@ export const reactProjects = [
     },
 ]
 export const landingPageProjects = [
+     {
+        title: ' Hat-Rick sport site ',
+        description: 'Html,Css,Js app',
+        bgImage: assets.work10,
+        git_link: 'https://github.com/norhanhamed/myportfolio',
+        demo_link: ' https://norhanhamed.github.io/myportfolio/ ',
+    },
      {
         title: ' Coffee-Shop-Website ',
         description: 'Html,Css,Js app',
