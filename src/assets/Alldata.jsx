@@ -1,4 +1,4 @@
-import profile from './profile.png'
+import profile from './norhan.jpg'
 import work1 from "./work-1.png"
 import work2 from "./work-2.png"
 import work3 from "./work-3.png"
@@ -33,8 +33,8 @@ export const reactProjects = [
         title: 'FreshCart project',
         description: 'React app',
         bgImage: assets.work1,
-        git_link: 'https://github.com/norhanhamed/FreshCart',
-        demo_link: ' https://norhanhamed.github.io/FreshCart/',
+        git_link: 'https://github.com/norhanhamed/newFreshCart',
+        demo_link: 'https://norhanhamed.github.io/newFreshCart/',
     },
     {
         title: 'Weather project ',
