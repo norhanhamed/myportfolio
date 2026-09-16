@@ -8,7 +8,8 @@ import work6 from "./work-6.png"
 import work7 from "./work-7.png"
 import work8 from "./work-8.png"
 import work9 from "./work-9.png"
-import work10 from "./work10.png"
+import work10 from "./work-10.png"
+import work11 from "./work-11.png"
 import hatrick from "./hatrick.jpeg"
 
 export const assets = {
@@ -22,6 +23,7 @@ export const assets = {
     work8,
     work9,
     work10,
+    work11,
     profile,
     hatrick,
 }
@@ -84,11 +86,11 @@ export const landingPageProjects = [
       
 ]
 
-export const educationProjects = [
+export const NextJsProjects = [
     {
-        title: 'platform project ',
-        description: 'Html css app',
-        bgImage: assets.work8,
+        title: 'Norhan Hamed Next.js Portfolio ',
+        description: 'Next.js portfolio',
+        bgImage: assets.work11,
         git_link: "https://github.com/norhanhamed/Elzero-platform",
         demo_link: "https://norhanhamed.github.io/Elzero-platform/"
     },

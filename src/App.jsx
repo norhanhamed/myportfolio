@@ -5,7 +5,7 @@ import {  createHashRouter, RouterProvider } from "react-router-dom";
 import Layout from '../src/Components/Layout';
 import ReactProjects from "./Components/Projects/ReactProjects";
 import LandingProjects from "./Components/Projects/LandingProjects";
-import Education from "./Components/Projects/Education";
+import NextJsProjects from "./Components/Projects/NextJsProjects";
 
 const routing = createHashRouter ([
   { path: "/", element: <Layout />, children: [
@@ -14,7 +14,7 @@ const routing = createHashRouter ([
         path: "projects", element: <Projects />, children: [
           { index: true, element: <ReactProjects /> },
           { path: "landingProjects", element: <LandingProjects /> },
-          { path: "education", element: <Education /> },
+          { path: "NextJsProjects", element: <NextJsProjects /> },
         ]
       },
       { path: "skills", element: <Skills /> },
