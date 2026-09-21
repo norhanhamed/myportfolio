@@ -1,17 +1,21 @@
 const skills = [
   "HTML",
   "CSS",
-  "Tailwind CSS",
   "JavaScript",
   "React",
-  "Git & GitHub",
+   "Tailwind CSS",
+   "Next.js",
+   "MUI",
+   "context , Redux",
+   "TypeScript",
+  "Git&GitHub",
 ];
 
 export default function Skills() {
   return (
     <section>
-      <h3 className="text-3xl font-semibold mb-6">Skills</h3>
-      <div className="flex flex-wrap gap-4">
+      {/* <h3 className="text-3xl font-semibold mb-6">Skills</h3> */}
+      <div className="flex flex-wrap gap-4 mt-10 md:mt-5">
         {skills.map((skill) => (
           <span
             key={skill}

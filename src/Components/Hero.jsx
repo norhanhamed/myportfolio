@@ -4,6 +4,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { FaDownload } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 import { GoDotFill } from "react-icons/go";
+import Skills from "./Skills";
 
 
 export default function Hero() {
@@ -22,10 +23,10 @@ export default function Hero() {
             I build modern, responsive, and user-friendly web interfaces
             using React and modern frontend tools.
           </p>
+
           {/* links buttons */}
-          <div className="  flex flex-col md:flex-row
-                          items-start md:items-center
-                          justify-start md:justify-between gap-5 mt-5 mb-5  flex-1">
+          <div className="  flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between gap-5 mt-5 mb-5  flex-1">
+
             <Link to='projects' className="w-full md:w-auto">
               <button className="w-full md:w-auto px-6 md:px-2 lg:px-5 text-2xl lg:text-lg py-3  bg-primary hover:bg-[#424241c9] hover:text-primary hover:text-lg transition-all duration-300 ease-in-out text-black rounded-lg font-medium cursor-pointer"  >
                 View Projects
@@ -39,28 +40,32 @@ export default function Hero() {
                 <a href="https://wa.me/01014013679" target="_blank" className="text-primary text-4xl md:text-2xl hover:scale-150 transition duration-300 cursor-pointer"><FaWhatsapp /> </a>
               </div>
             </button>
+
             {/* cv */}
             <div className="flex px-3 gap-1 f-1 items-center justify-between  underline ">
               <a href="/NorhanHamedCV.pdf  " className=" text-xl " >CV</a>
               <a href="/NorhanHamedCV.pdf " download target="blank" className="text-2xl"> <FaDownload /> </a>
             </div>
+
           </div>
 
         </div>
+
         {/* my-img */}
         <div className="hidden md:block w-72 h-96 rounded-xl overflow-hidden border border-[#FF9F1C]/40 shadow-[0_0_40px_rgba(255,159,28,0.2)]">
           <img
             src={assets.profile}
-            alt="profile"
+            alt="Norhan Hemd profile img"
             className="w-full h-full object-cover grayscale"
           />
         </div>
 
       </section>
       <div className="lg:text-lg text-xl text-gray-400 mt-5 flex flex-col gap-4">
-        <p className=" flex md:items-center items-start gap-1 "> <span ><GoDotFill/></span> Frontend Developer, Computer and Information Science graduate from Mansoura University </p>
-        <p className=" flex md:items-center items-start gap-1"> <span > <GoDotFill/> </span> Frontend React Diploma holder from Route Academy (2025). </p>
+        <p className=" flex md:items-center items-start gap-1 "> <span ><GoDotFill /></span> Frontend Developer, Computer and Information Science graduate from Mansoura University </p>
+        <p className=" flex md:items-center items-start gap-1"> <span > <GoDotFill /> </span> Frontend React Diploma holder from Route Academy (2025). </p>
       </div>
+      <div> <Skills/> </div>
     </>
   );
 }
