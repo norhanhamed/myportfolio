@@ -10,6 +10,8 @@ import work8 from "./work-8.png"
 import work9 from "./work-9.png"
 import work10 from "./work-10.png"
 import work11 from "./work-11.png"
+import work12 from "./work-12.png"
+
 import hatrick from "./hatrick.jpeg"
 
 export const assets = {
@@ -24,6 +26,7 @@ export const assets = {
     work9,
     work10,
     work11,
+    work12,
     profile,
     hatrick,
 }
@@ -82,6 +85,13 @@ export const landingPageProjects = [
         bgImage: assets.work6,
         git_link: 'https://github.com/norhanhamed/real-estate',
         demo_link: 'https://norhanhamed.github.io/real-estate/',
+    },
+     {
+        title: ' Buildcon-Website ',
+        description: 'Html,Css,Js app',
+        bgImage: assets.work12,
+        git_link: 'https://github.com/norhanhamed/buildcon',
+        demo_link: ' https://norhanhamed.github.io/buildcon/ ',
     },
       
 ]
