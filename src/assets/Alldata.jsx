@@ -103,4 +103,14 @@ export const NextJsProjects = [
         git_link: "https://github.com/norhanhamed/Elzero-platform",
         demo_link: "https://norhanhamed.github.io/Elzero-platform/"
     },
+
+ {
+        title: 'Norhan Hamed Next.js Portfolio ',
+        description: 'Next.js portfolio',
+        bgImage: assets.work11,
+        git_link: "https://github.com/norhanhamed/NextSocialApp",
+        demo_link: "https://next-social-app-e3rh.vercel.app/"
+    },
+
+    
 ]

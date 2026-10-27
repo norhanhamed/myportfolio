@@ -5,10 +5,11 @@ const skills = [
   "React",
    "Tailwind CSS",
    "Next.js",
-   "MUI",
+   "Bootstarp",
    "context , Redux",
    "TypeScript",
   "Git&GitHub",
+  "Shadcn ui" 
 ];
 
 export default function Skills() {
