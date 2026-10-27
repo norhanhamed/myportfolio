@@ -11,6 +11,8 @@ import work9 from "./work-9.png"
 import work10 from "./work-10.png"
 import work11 from "./work-11.png"
 import work12 from "./work-12.png"
+import work13 from "./work-13.png"
+
 
 import hatrick from "./hatrick.jpeg"
 
@@ -27,6 +29,7 @@ export const assets = {
     work10,
     work11,
     work12,
+    work13,
     profile,
     hatrick,
 }
@@ -107,7 +110,7 @@ export const NextJsProjects = [
  {
         title: 'Norhan Hamed Next.js Portfolio ',
         description: 'Next.js portfolio',
-        bgImage: assets.work11,
+        bgImage: assets.work13,
         git_link: "https://github.com/norhanhamed/NextSocialApp",
         demo_link: "https://next-social-app-e3rh.vercel.app/"
     },
