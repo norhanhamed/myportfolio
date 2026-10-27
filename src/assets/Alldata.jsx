@@ -62,8 +62,8 @@ export const landingPageProjects = [
         title: ' Hat-Rick sport site ',
         description: 'Html,Css,Js app',
         bgImage: assets.hatrick,
-        git_link: 'https://github.com/norhanhamed/myportfolio',
-        demo_link: ' https://norhanhamed.github.io/myportfolio/ ',
+        git_link: 'https://github.com/norhanhamed/hat-trick',
+        demo_link: 'https://norhanhamed.github.io/hat-trick/',
     },
      {
         title: ' Coffee-Shop-Website ',
@@ -72,28 +72,27 @@ export const landingPageProjects = [
         git_link: 'https://github.com/norhanhamed/coffee-shop-website',
         demo_link: ' https://norhanhamed.github.io/coffee-shop-website/ ',
     },
-    {
-        title: 'Furniture project ',
-        description: 'Html css app',
-        bgImage: assets.work9,
-        git_link: "https://github.com/norhanhamed/furniture",
-        demo_link: "https://norhanhamed.github.io/furniture/"
-    },
-    {
+     {
         title: 'Real-Estate project',
         description: 'Recat app',
         bgImage: assets.work6,
         git_link: 'https://github.com/norhanhamed/real-estate',
         demo_link: 'https://norhanhamed.github.io/real-estate/',
     },
-     {
+      {
         title: ' Buildcon-Website ',
         description: 'Html,Css,Js app',
         bgImage: assets.work12,
         git_link: 'https://github.com/norhanhamed/buildcon',
         demo_link: ' https://norhanhamed.github.io/buildcon/ ',
     },
-      
+    {
+        title: 'Furniture project ',
+        description: 'Html css app',
+        bgImage: assets.work9,
+        git_link: "https://github.com/norhanhamed/furniture",
+        demo_link: "https://norhanhamed.github.io/furniture/"
+    },      
 ]
 
 export const NextJsProjects = [
